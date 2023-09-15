@@ -1,0 +1,75 @@
+.maintitle{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inputdiv input{
+ width: 100%;
+ border: 1px  solid black;
+ padding: 10px ;
+ border-radius: 20px  0px 0px 20px;
+
+}
+
+.inputdiv button{
+    width: 100px; 
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px  20px 20px 0px;
+}
+
+.taskli{
+    list-style: none;
+}
+
+.deleteandconfirmbtn button{
+    width: 100px; 
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.taskli h6{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.completedtask{
+    font-size: 25px;
+    padding: 5px;
+    list-style: decimal;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:1000px){
+    .maintitle{
+        font-size: 25px;
+    }
+    .inputdiv input{
+        padding: 3px 10px;
+    }
+    .inputdiv button{
+        padding: 3px;
+    }
+
+    .deleteandconfirmbtn button{
+        padding: 5px;
+        font-size: 15px;
+        width: auto;
+    }
+    .taskli h6{
+        font-size: 15px;
+    }
+    .completedtask {
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
