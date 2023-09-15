@@ -27,7 +27,6 @@ function TodoApp() {
       completed: false,
     };
 
-    // Instead of using tasks directly, you can use the previous state to ensure all tasks are added correctly
     setTasks((prevTasks) => [...prevTasks, newTask]);
     setInputValue('');
   };
